@@ -52,7 +52,7 @@ df <- tibble(
   a = rnorm(5),
   b = rnorm(5),
   c = rnorm(5),
-  d = rnorm(5),
+  d = rnorm(5)
 )
 
 df |> mutate(
